@@ -1,7 +1,34 @@
+h1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+body {
+
+  background-color: aqua;
+}
+
 div.first-div {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
+p {
+
+  display: flex;
+  align-items: center;
+  
+}
+
+input#colour-button {
+
+  width: 25%;
+  margin-top: 10px;
+
+}
 
 
