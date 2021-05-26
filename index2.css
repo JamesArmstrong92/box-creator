@@ -28,7 +28,15 @@ input#colour-button {
 
   width: 25%;
   margin-top: 10px;
+  transition-duration: 0.4s;
+  
 
+}
+
+input#colour-button:hover {
+
+  color: white;
+  background-color: black;
 }
 
 
