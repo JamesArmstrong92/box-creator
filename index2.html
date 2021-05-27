@@ -9,7 +9,8 @@
   <script src="index.js"></script>
 
   <!-- Bootstrap-->
-  <link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,11 +20,11 @@
 <body>
   <h1>Box Creator</h1>
   <div class="first-div">
-  <h3 class="col-xs-2">colour: Pick Anything!</h3>
+  <h3>colour: Pick Anything!</h3>
   <input type="color" id="colour">
   <h3>Size (use em or px)</h3>
-  <input type="text" id="size">
-  <input type="button" id="colour-button" value="create box" onclick= "colourChanger(boxChanger())">
+  <input placeholder="ex: 2em" type="text" id="size">
+  <input type="button" id="colour-button" value="create box" class="btn btn-primary" onclick= "colourChanger(boxChanger())">
   <p id="colour-box"></p>
 </div>
 

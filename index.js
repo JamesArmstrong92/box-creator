@@ -7,7 +7,7 @@ function colourChanger() {
   document.getElementById("colour-box").style.backgroundColor = colour
 
   
-}
+};
 
 //Box size manipulator
 
@@ -18,4 +18,4 @@ function boxChanger() {
   document.getElementById("colour-box").style.padding = size
 
 
-}
+};
